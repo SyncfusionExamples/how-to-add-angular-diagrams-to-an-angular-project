@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-dropdownlist'`, () => {
+  it(`should have as title 'angular-diagram'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-dropdownlist');
+    expect(app.title).toEqual('angular-diagram');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-dropdownlist app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-diagram app is running!');
   });
 });
