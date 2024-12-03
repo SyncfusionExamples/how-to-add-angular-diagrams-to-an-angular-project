@@ -1,6 +1,6 @@
 # How to Add an Angular Diagram Component to an Angular CLI Project 
 
-A quick start project that shows how to add a Syncfusion Angular Diagram component to an Angular CLI project. This project also includes a code snippet to create nodes and connectors, join the nodes using connectors, add segments and annotations to the connectors.  
+A quick start project that shows how to add a Syncfusion&reg; Angular Diagram component to an Angular CLI project. This project also includes a code snippet to create nodes and connectors, join the nodes using connectors, add segments and annotations to the connectors.  
 
 Examples: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/diagram/default-functionalities  
 
