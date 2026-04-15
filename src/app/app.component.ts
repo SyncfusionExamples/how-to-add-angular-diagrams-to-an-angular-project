@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
-import { FlowShapeModel, MarginModel, 
+import { Component, ViewEncapsulation } from '@angular/core';
+import { FlowShapeModel,DiagramModule, MarginModel, 
   NodeModel, OrthogonalSegmentModel} from "@syncfusion/ej2-angular-diagrams";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  standalone: true,
+  imports: [DiagramModule],
+  encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent {
   title = 'angular-richtexteditor';
